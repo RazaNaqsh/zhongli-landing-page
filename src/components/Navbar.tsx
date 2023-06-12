@@ -21,7 +21,7 @@ const Navbar = () => {
 			<div className="px-4 py-1 rounded-full bg-[#252525]  absolute -top-10">
 				<Image
 					className="pt-9 hover:scale-110 transition-all duration-300"
-					src="/inazuma.png"
+					src="/liyue.webp"
 					height={105}
 					width={115}
 					alt="inazuma logo"
