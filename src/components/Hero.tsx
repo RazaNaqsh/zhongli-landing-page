@@ -63,9 +63,15 @@ const Hero = () => {
 						style={{ textShadow: "0px 0px 2px white" }}
 					>
 						Rex Lapis
-						<FontAwesomeIcon
+						{/* <FontAwesomeIcon
 							icon={faFire}
 							style={{ color: "#ea9c43", height: "20px" }}
+						/> */}
+						<Image
+							src="/geoEl.png"
+							height={35}
+							width={35}
+							alt="geo logo"
 						/>
 					</p>
 				</div>
