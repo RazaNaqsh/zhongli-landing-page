@@ -30,3 +30,6 @@ body {
 		)
 		rgb(var(--background-start-rgb));
 }
+* {
+	@apply font-genshin;
+}

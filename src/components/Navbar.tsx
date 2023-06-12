@@ -1,10 +1,10 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Navbar = () => {
 	return (
-		<header className="flex py-5 justify-center gap-10 relative font-genshin">
+		<header className="flex py-5 justify-center gap-10 relative  bg-[#313131]">
 			<Link
 				href=""
 				className=" text-[#FAF4AA]"
@@ -17,7 +17,7 @@ const Navbar = () => {
 			>
 				Gameplay
 			</Link>
-			<div className="w-[250px]" />
+			<div className="w-[300px]" />
 			<div className="px-4 py-1 rounded-full bg-[#252525]  absolute -top-10">
 				<Image
 					className="pt-9 hover:scale-105 transition-all  duration-300"
