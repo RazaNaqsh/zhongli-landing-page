@@ -4,16 +4,16 @@ import Link from "next/link";
 
 const Navbar = () => {
 	return (
-		<header className="flex py-5 justify-center gap-10 relative  bg-[#313131]">
+		<header className="flex justify-center relative  bg-[#313131]">
 			<Link
 				href=""
-				className=" text-[#FAF4AA] "
+				className=" text-[#FAF4AA] hover:bg-[#292929] py-5 px-5 rounded-md"
 			>
 				Story
 			</Link>
 			<Link
 				href=""
-				className=" text-[#FAF4AA]"
+				className=" text-[#FAF4AA] hover:bg-[#292929] py-5 px-5 rounded-md"
 			>
 				Gameplay
 			</Link>
@@ -29,13 +29,13 @@ const Navbar = () => {
 			</div>
 			<Link
 				href=""
-				className="text-[#FAF4AA]"
+				className="text-[#FAF4AA] hover:bg-[#292929] py-5 px-5 rounded-md"
 			>
 				Gallery
 			</Link>
 			<Link
 				href=""
-				className="text-[#FAF4AA]"
+				className="text-[#FAF4AA] hover:bg-[#292929] py-5 px-5 rounded-md"
 			>
 				Github
 			</Link>

@@ -70,8 +70,12 @@ const Hero = () => {
 					</p>
 				</div>
 				<div className="space-x-1 text-sm my-2 ">
-					<button className="bg-[crimson] rounded-md px-5 py-2">Guides</button>
-					<button className="border-2 px-5 py-2 rounded-md">Learn More</button>
+					<button className="bg-[crimson] hover:scale-110 duration-150  rounded-md px-5 py-2">
+						Guides
+					</button>
+					<button className="border-2 px-5 py-2 hover:scale-110 duration-150  rounded-md">
+						Learn More
+					</button>
 				</div>
 			</section>
 		</div>
