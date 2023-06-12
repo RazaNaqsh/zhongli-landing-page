@@ -1,4 +1,4 @@
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faFire, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
@@ -15,7 +15,7 @@ const Hero = () => {
 					alt="hero"
 				/>
 			</div>
-			<section className="h-[90vh] w-1/2 items-center flex flex-col justify-center">
+			<section className="h-[90vh] w-[35%] items-end flex flex-col justify-center">
 				<div className="flex">
 					{fiveStars.map((star) => (
 						<FontAwesomeIcon
@@ -59,11 +59,19 @@ const Hero = () => {
 					</p>
 					<hr className="w-10" />
 					<p
-						className=" w-fit p-2"
+						className=" w-fit p-2 flex items-center gap-1"
 						style={{ textShadow: "0px 0px 2px white" }}
 					>
 						Rex Lapis
+						<FontAwesomeIcon
+							icon={faFire}
+							style={{ color: "#ea9c43", height: "20px" }}
+						/>
 					</p>
+				</div>
+				<div className="space-x-1 text-sm my-2 ">
+					<button className="bg-[crimson] rounded-md px-5 py-2">Guides</button>
+					<button className="border-2 px-5 py-2 rounded-md">Learn More</button>
 				</div>
 			</section>
 		</div>
