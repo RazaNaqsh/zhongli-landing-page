@@ -7,7 +7,7 @@ const Navbar = () => {
 		<header className="flex py-5 justify-center gap-10 relative  bg-[#313131]">
 			<Link
 				href=""
-				className=" text-[#FAF4AA]"
+				className=" text-[#FAF4AA] "
 			>
 				Story
 			</Link>
@@ -17,10 +17,10 @@ const Navbar = () => {
 			>
 				Gameplay
 			</Link>
-			<div className="w-[300px]" />
+			<div className="w-[200px]" />
 			<div className="px-4 py-1 rounded-full bg-[#252525]  absolute -top-10">
 				<Image
-					className="pt-9 hover:scale-105 transition-all  duration-300"
+					className="pt-9 hover:scale-110 transition-all duration-300"
 					src="/inazuma.png"
 					height={105}
 					width={115}

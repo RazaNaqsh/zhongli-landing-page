@@ -15,7 +15,7 @@ const Hero = () => {
 					alt="hero"
 				/>
 			</div>
-			<section className="h-[90vh] flex flex-col justify-center">
+			<section className="h-[90vh] w-1/2 items-center flex flex-col justify-center">
 				<div className="flex">
 					{fiveStars.map((star) => (
 						<FontAwesomeIcon
@@ -35,7 +35,10 @@ const Hero = () => {
 						boxShadow: "0px 0px 8px #0e0e1c",
 					}}
 				>
-					<h1 className=" text-7xl font-extrabold flex items-center">
+					<h1
+						className=" text-7xl font-extrabold flex items-center"
+						style={{ textShadow: "0px 0px 1px white" }}
+					>
 						Zhongli{" "}
 						<span>
 							<Image
@@ -46,9 +49,21 @@ const Hero = () => {
 							/>
 						</span>
 					</h1>
-					<div>
-						<p>Archon Morax</p>
-					</div>
+				</div>
+				<div className="flex items-center gap-6 py-2">
+					<p
+						className="bg-[#d6a13f] rounded-sm w-fit p-2"
+						style={{ textShadow: "0px 0px 1px white" }}
+					>
+						Archon Morax
+					</p>
+					<hr className="w-10" />
+					<p
+						className=" w-fit p-2"
+						style={{ textShadow: "0px 0px 2px white" }}
+					>
+						Rex Lapis
+					</p>
 				</div>
 			</section>
 		</div>
